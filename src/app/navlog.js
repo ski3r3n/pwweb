@@ -24,7 +24,7 @@ export default function NavLog() {
             <li className="mr-10 ml-auto mt-2 mb-2">
                 <a
                     className="text-blue-500 hover:text-blue-400 hover:font-bold"
-                    href="/"
+                    href="/api/auth/signout?callbackUrl=%2F"
                     id="logout">
                     Log Out
                 </a>

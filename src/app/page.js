@@ -24,14 +24,14 @@ export default function Home() {
             <br />
             <div className="flex text-xl">
                 <a
-                    href="/login"
+                    href="/dashboard"
                     className="rounded-md mr-3 min-h-20 text-blue-200 ring-blue-500 ring-2 shadow-md shadow-black-500 bg-blue-700 items-center flex transition-all ease-in-out hover:bg-blue-600">
-                    &nbsp;&nbsp;&nbsp;&nbsp;Sign Up&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;Log In&nbsp;&nbsp;&nbsp;&nbsp;
                 </a>
                 <a
-                    href="/login"
+                    href="/auth/new-user"
                     className="rounded-md ml-3 min-h-20 text-blue-200 ring-blue-500 ring-2 shadow-md shadow-black-500 bg-blue-700 items-center flex transition-all ease-in-out hover:bg-blue-600">
-                    &nbsp;&nbsp;&nbsp;&nbsp;Log In&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;Sign Up&nbsp;&nbsp;&nbsp;&nbsp;
                 </a>
             </div>
         </main>

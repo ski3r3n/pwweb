@@ -25,14 +25,14 @@ export default function NavNotLog() {
             <li className="mr-10 mt-2 mb-2">
                 <a
                     className="text-blue-500 hover:text-blue-400 hover:font-bold"
-                    href="/login">
+                    href="/dashboard">
                     Log In
                 </a>
             </li>
             <li className="mr-10 mt-2 mb-2">
                 <a
                     className="text-blue-300 hover:text-blue-200 hover:font-bold"
-                    href="/login">
+                    href="/auth/new-user">
                     Sign Up
                 </a>
             </li>
